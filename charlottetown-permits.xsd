@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="appealsdate">
-    <xs:complexType mixed="true" />
-  </xs:element>
 
-  <xs:element name="applicationdate">
-    <xs:complexType mixed="true" />
-  </xs:element>
-
-  <xs:element name="approvaldate">
-    <xs:complexType mixed="true" />
-  </xs:element>
-
-  <xs:element name="description">
-    <xs:complexType mixed="true" />
-  </xs:element>
-
-  <xs:element name="name">
-    <xs:complexType mixed="true" />
-  </xs:element>
+  <xs:element name="appealsdate" type="xs:date"/>
+  <xs:element name="applicationdate" type="xs:date"/>
+  <xs:element name="approvaldate" type="xs:date"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="pid" type="xs:integer"/>
+  <xs:element name="street_nm" type="xs:string"/>
+  <xs:element name="street_no" type="xs:integer"/>
 
   <xs:element name="permit">
     <xs:complexType mixed="true">
+      <xs:attribute name="action" type="xs:string" use="required" />
+      <xs:attribute name="filenumber" type="xs:string" use="required" />
       <xs:choice>
         <xs:element ref="appealsdate" />
         <xs:element ref="applicationdate" />
@@ -34,8 +26,6 @@
         <xs:element ref="street_nm" />
         <xs:element ref="street_no" />
       </xs:choice>
-      <xs:attribute name="action" type="xs:NMTOKEN" use="optional" />
-      <xs:attribute name="filenumber" type="xs:NMTOKEN" use="optional" />
     </xs:complexType>
   </xs:element>
 
@@ -45,20 +35,8 @@
         <xs:element ref="description" />
         <xs:element ref="permit" maxOccurs="unbounded" />
       </xs:sequence>
-      <xs:attribute name="weekending" type="xs:NMTOKEN" use="required" />
+      <xs:attribute name="weekending" type="xs:date" use="required" />
     </xs:complexType>
-  </xs:element>
-
-  <xs:element name="pid">
-    <xs:complexType mixed="true" />
-  </xs:element>
-
-  <xs:element name="street_nm">
-    <xs:complexType mixed="true" />
-  </xs:element>
-
-  <xs:element name="street_no">
-    <xs:complexType mixed="true" />
   </xs:element>
 
 </xs:schema>
