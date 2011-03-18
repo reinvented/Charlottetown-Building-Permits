@@ -1,0 +1,10 @@
+Charlottetown Building Permits
+==============================
+
+Copyright 2010 by [Peter Rukavina](http://ruk.ca).
+
+Licensed under [GNU Public License](http://www.fsf.org/licensing/licenses/gpl.txt).
+
+The [City of Charlottetown](http://www.charlottetown.pe.ca), Prince Edward Island has historically released building permit, subdivision and rezoning approval data only in [PDF format](http://city.charlottetown.pe.ca/buildingpermitapproval.php), which affords citizens with limited opportunties to use this data to build value-added applications.
+
+This project is an attempt to provide the City with the data formats, tools and sample applications necessary to migrate to an XML-based method for releasing this data to the public.

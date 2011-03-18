@@ -1,0 +1,22 @@
+<!ELEMENT appealsdate ( #PCDATA ) >
+
+<!ELEMENT applicationdate ( #PCDATA ) >
+
+<!ELEMENT approvaldate ( #PCDATA ) >
+
+<!ELEMENT description ( #PCDATA ) >
+
+<!ELEMENT name ( #PCDATA ) >
+
+<!ELEMENT permit ( #PCDATA | appealsdate | applicationdate | approvaldate | description | name | permit | pid | street_nm | street_no )* >
+<!ATTLIST permit action NMTOKEN #IMPLIED >
+<!ATTLIST permit filenumber NMTOKEN #IMPLIED >
+
+<!ELEMENT permits ( description, permit+ ) >
+<!ATTLIST permits weekending NMTOKEN #REQUIRED >
+
+<!ELEMENT pid ( #PCDATA ) >
+
+<!ELEMENT street_nm ( #PCDATA ) >
+
+<!ELEMENT street_no ( #PCDATA ) >

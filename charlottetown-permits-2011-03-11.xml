@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE permits SYSTEM "http://www.reinvented.net/dtd/charlottetown-permits.dtd">
+<permits weekending="2011-03-11">
+	<description>City of Charlottetown, Prince Edward Island building permit and rezoning approvals.</description>
+	<permit filenumber="10-289" action="permit-approved">
+		<pid>357715</pid>		
+		<pid>357723</pid>
+		<permit></permit>
+		<applicationdate>2011-03-11</applicationdate>
+		<approvaldate>2011-03-11</approvaldate>
+		<street_no>91</street_no>
+		<street_nm>Euston St</street_nm>
+		<description>Occupancy Permit issued</description>
+		<name></name>
+		<appealsdate>2011-04-01</appealsdate>
+	</permit>
+	<permit filenumber="10-612" action="permit-approved">
+		<pid>344523</pid>		
+		<permit>427-bid-10</permit>
+		<applicationdate>2010-12-10</applicationdate>
+		<approvaldate>2011-03-08</approvaldate>
+		<street_no>170</street_no>
+		<street_nm>Fitzroy St</street_nm>
+		<description>Install elevator lift</description>
+		<name>Canadian Mental Health Association</name>
+		<appealsdate>2011-03-29</appealsdate>
+	</permit>	
+	<permit filenumber="11-055" action="permit-approved">
+		<pid>397455</pid>		
+		<permit>031-bid-11</permit>
+		<applicationdate>2011-02-14</applicationdate>
+		<approvaldate>2011-03-09</approvaldate>
+		<street_no>135</street_no>
+		<street_nm>St. Peters Rd</street_nm>
+		<description>Renovations to CBCL Ltd. Office space</description>
+		<name>CBCL Limited</name>
+		<appealsdate>2011-03-30</appealsdate>
+	</permit>	
+	<permit filenumber="11-074" action="permit-approved">
+		<pid>343665</pid>		
+		<permit>043-bid-11</permit>
+		<applicationdate>2011-02-24</applicationdate>
+		<approvaldate>2011-03-08</approvaldate>
+		<street_no>101</street_no>
+		<street_nm>Kent St</street_nm>
+		<description>Interior renovations for Post Office</description>
+		<name>2950243 Canada Inc.</name>
+		<appealsdate>2011-03-29</appealsdate>
+	</permit>	
+	<permit filenumber="11-074" action="rezoning">
+		<pid>335158</pid>		
+		<permit>007-2011</permit>
+		<applicationdate>2011-03-11</applicationdate>
+		<approvaldate>2011-03-11</approvaldate>
+		<street_no>4</street_no>
+		<street_nm>Queen St</street_nm>
+		<description>4-lot subdivision for Convention Centre</description>
+		<name>Government of PEI</name>
+		<appealsdate>2011-03-25</appealsdate>
+	</permit>			
+</permits>
